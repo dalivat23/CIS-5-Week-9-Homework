@@ -8,14 +8,9 @@ void printMenu() {
   std::cout << "1) Average  2) High  3) Quit\n";
 }
 
-double average(const int a[], int n) {
-  // TODO: walk a and return the average. If n == 0, return 0.
-  return 0.0;
-}
+double average(const int a[], int n);
 
-void printSummary(double avg) {
-  std::cout << "Average: " << avg << "\n";
-}
+void printSummary(double avg); 
 
 int high(const int a[], int n) {
   // TODO: return the max. Seed from a[0].
