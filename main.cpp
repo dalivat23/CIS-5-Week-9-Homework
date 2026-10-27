@@ -41,3 +41,20 @@ int main() {
 
   return 0;
 }
+
+double average(const int a[], int n){
+  if (n == 0){
+    return 0;
+  }
+  
+  int sum = 0;
+  for (int i = 0; i < n; ++i){
+  sum += a[i];
+}
+
+  return sum / n;
+}
+
+void printSummary(double avg){
+  std::cout << "Average: " << avg << std::endl;
+}
