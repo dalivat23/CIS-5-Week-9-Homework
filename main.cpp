@@ -12,10 +12,7 @@ double average(const int a[], int n);
 
 void printSummary(double avg); 
 
-int high(const int a[], int n) {
-  // TODO: return the max. Seed from a[0].
-  return a[0];
-}
+int high(const int a[], int n);
 
 int main() {
   const int N = 4;
@@ -48,6 +45,17 @@ double average(const int a[], int n){
 }
 
   return sum / n;
+}
+
+int high(const int a[], int n){
+  int highn = 0;
+  for (int i = 0; i < n; ++i){
+    if (a[i] > highn)
+    {
+      highn = a[i];
+    }
+}
+  return highn;
 }
 
 void printSummary(double avg){
