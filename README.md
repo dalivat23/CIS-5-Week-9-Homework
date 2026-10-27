@@ -5,7 +5,7 @@
 **Due:** Monday night. This assignment is not due Sunday.
 
 
-## Demo video (required)
+## Demo video (https://youtu.be/Z-og7hFAOok)
 
 Paste a link to a short video of you running this assignment (tool + code + run).
 Work without a working video link is incomplete.

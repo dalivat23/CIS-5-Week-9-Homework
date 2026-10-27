@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Homework 9 — Your Name
+// Homework 9 — Tristan Daliva
 // CIS 5 Week 09 · Menu on the lab
 // Paste your lab functions here, or fill the TODOs.
 
